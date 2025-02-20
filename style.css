@@ -10,7 +10,7 @@ nav {
 
 ul {
     list-style: none;
-    margin-left: 1000px;
+    margin-left: 950px;
     padding-top: 30px;
 }
 
@@ -53,4 +53,37 @@ h1 {
 
 .dealler {
     display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.textdeco {
+    text-align: center;
+    padding: 32px;
+}
+
+hr {
+    height: 3px;          
+    background-color: black; 
+    width: 20%;           
+    margin: 20px auto;    
+}
+
+.tuile {
+    background-color: white;
+}
+
+body {
+    background-color: rgb(222, 222, 222);
+}
+
+h3 {
+    margin: 50px;
+    margin-left: 180px;
+    font-size: 2em;
+}
+
+span {
+    color: gold;
 }
