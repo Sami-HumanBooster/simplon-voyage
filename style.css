@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(54, 54, 54);
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    margin-left: 1000px;
+    padding-top: 30px;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#hero {
+    background: url(assets/houseofsea.jpg) no-repeat;   
+    background-size: cover; 
+    height: 450px;
+    color: white;
+    text-align: center;
+    padding-inline: 500px;
+    font-size: 1.5em;
+}
+
+.text {
+    padding-top: 100px;
+}
+h2 {
+color: gold;
+font-weight: 900;
+font-size: 2em;
+}
+h1 {
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+.dealler {
+    display: flex;
+}
