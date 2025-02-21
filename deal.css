@@ -1,6 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight : weight;
+    font-style : normal;
 }
 
 nav {
@@ -30,7 +34,8 @@ a {
 
 main {
     background-color: rgb(226, 226, 226);
-}
+
+  }
 
 #theme {
     background-image: url(https://france3-regions.francetvinfo.fr/image/3spQJhlc9Yd0_z8_WkzWENhW4c0/4032x3024/regions/2021/07/29/6102cf449e55c_img-2657-5412047.jpg);
@@ -44,22 +49,65 @@ main {
     font-size: larger;
 }
 
-.destination {
+.destinations {
+    margin: 100px;
+    height: 1500px;
+}
+
+h2 {
+    margin: 50px;
+}
+
+.zones {
     display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+
 }
 
 .afrique {
-    height: 400px;
+    height: 450px;
     width: 300px;    
     background-color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(187, 187, 187);
 }
+
 .asie {
-    height: 400px;
+    height: 450px;
     width: 300px;   
     background-color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(187, 187, 187);
 }
+
 .europe {
-    height: 400px;
+    height: 450px;
     width: 300px;   
     background-color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(187, 187, 187);
+}
+
+
+.details {
+    margin: 20px;
+    line-height: 30px;
+    text-align : center;
+}
+
+p.zonetitle {
+    font-size: 20px;
+    color: brown;
+}
+
+span {
+    color: goldenrod;
+}
+
+.confianceblock {
+    display: flex;
 }
